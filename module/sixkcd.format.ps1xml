@@ -1,0 +1,56 @@
+﻿<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>xkcd</Name>
+      <ViewSelectedBy>
+        <TypeName>xkcd</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>id</Label>
+            <Width>4</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Date</Label>
+            <Width>10</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Title</Label>
+            <Width>20</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Image</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                $_.date.ToShortDateString()
+              </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>title</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $availableSize = $host.UI.RawUI.WindowSize.Width - 5 - 12 - 20 - 10
+                  if ($_.alt.Length -gt $availableSize) {
+                    $str = $_.alt.Substring(0, $availableSize) + '..'
+                    return $psstyle.FormatHyperlink($str, $_.image)
+                  }
+                  $psstyle.FormatHyperlink($_.alt, $_.image)
+                </ScriptBlock>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
