@@ -8,7 +8,7 @@
 
 @{
     RootModule = 'sixkcd.psm1'
-    ModuleVersion = '0.1'
+    ModuleVersion = '0.1.1'
     CompatiblePSEditions = 'Core'
     GUID = '66a7ce6d-73f5-4588-a8c8-d8b0d9105f09'
     Author = 'trackd'
