@@ -49,7 +49,7 @@ function Update-xkcd {
         }
         $script:cache.GetEnumerator() | ForEach-Object {
             $_.Value
-        } | ConvertTo-Json | Set-Content $PSScriptRoot\xkcd.json
+        } | ConvertTo-Json | Set-Content "$PSScriptRoot\sixkcd.json"
     }
 }
 function prettyxkcd {
