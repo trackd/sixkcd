@@ -23,28 +23,36 @@ function Get-xkcdobj {
 function Import-xkcd {
     [CmdletBinding()]
     param()
-    $dict = [ordered]@{}
+    Write-Verbose 'Importing XKCD cache'
+    $dict = [System.Collections.Generic.Dictionary[int, xkcd]]::new()
     $json = Get-Content -Raw "$PSScriptRoot\sixkcd.json" | ConvertFrom-Json
     foreach ($x in $json) {
-        $dict[$x.id] = [xkcd]@{
-                id    = $x.id
-                Date  = $x.Date
-                Title = $x.Title
-                Image = $x.Image
-                Alt   = $x.Alt
-            }
+        if (!$dict.ContainsKey($x.id)) {
+            $dict.add($x.id, [xkcd]@{
+                    id    = $x.id
+                    Date  = $x.Date
+                    Title = $x.Title
+                    Image = $x.Image
+                    Alt   = $x.Alt
+                })
+        }
     }
     return $dict
 }
 function Update-xkcd {
     [CmdletBinding()]
     param()
+    Write-Verbose 'Checking for new XKCD comics'
     [int]$Newest = (Invoke-RestMethod 'https://xkcd.com/info.0.json').num
     [int]$Lastcached = @($script:cache.Get_Keys())[-1]
-    if ($Lastcached -lt $Newest) {
+    Write-Verbose "Newest: $Newest"
+    Write-Verbose "Last cached: $Lastcached"
+    if ($Newest -gt $Lastcached) {
+        Write-Verbose 'Updating cache'
         $Lastcached..$Newest | ForEach-Object {
-            if (!$script:cache.Contains($_)) {
-                $script:cache[$_] = Get-xkcdobj $_
+            if (!$script:cache.ContainsKey($_)) {
+                $t = Get-xkcdobj $_
+                $script:cache.add($t.id, $t)
             }
         }
         $script:cache.GetEnumerator() | ForEach-Object {

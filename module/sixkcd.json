@@ -20923,13 +20923,6 @@
     "Alt": "Our nucleic acid recovery techinques found a great deal of homo sapiens DNA incorporated into the fossils, particularly the ones containing high levels of resin, leading to the theory that these dinosaurs preyed on the once-dominant primates."
   },
   {
-    "id": 2990,
-    "Date": "2024-09-25T00:41:51.0802148+02:00",
-    "Title": "Late Cenozoic",
-    "Image": "https://imgs.xkcd.com/comics/late_cenozoic.png",
-    "Alt": "Our nucleic acid recovery techinques found a great deal of homo sapiens DNA incorporated into the fossils, particularly the ones containing high levels of resin, leading to the theory that these dinosaurs preyed on the once-dominant primates."
-  },
-  {
     "id": 2991,
     "Date": "2024-09-27T00:41:51.645924+02:00",
     "Title": "Beamsplitters",
@@ -20970,5 +20963,12 @@
     "Title": "CIDABM",
     "Image": "https://imgs.xkcd.com/comics/cidabm.png",
     "Alt": "There's a heated debate over whether the big island of Tierra del Fuego should qualify for membership."
+  },
+  {
+    "id": 2997,
+    "Date": "2024-10-11T20:36:11.8978793+02:00",
+    "Title": "Solar Protons",
+    "Image": "https://imgs.xkcd.com/comics/solar_protons.png",
+    "Alt": "If any of you want to meet some cool local oxygen atoms, I can introduce you!"
   }
 ]
