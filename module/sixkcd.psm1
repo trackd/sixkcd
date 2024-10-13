@@ -23,7 +23,6 @@ function Get-xkcdobj {
 function Import-xkcd {
     [CmdletBinding()]
     param()
-    Write-Verbose 'Importing XKCD cache'
     $dict = [System.Collections.Generic.Dictionary[int, xkcd]]::new()
     $json = Get-Content -Raw "$PSScriptRoot\sixkcd.json" | ConvertFrom-Json
     foreach ($x in $json) {
@@ -42,13 +41,9 @@ function Import-xkcd {
 function Update-xkcd {
     [CmdletBinding()]
     param()
-    Write-Verbose 'Checking for new XKCD comics'
     [int]$Newest = (Invoke-RestMethod 'https://xkcd.com/info.0.json').num
     [int]$Lastcached = @($script:cache.Get_Keys())[-1]
-    Write-Verbose "Newest: $Newest"
-    Write-Verbose "Last cached: $Lastcached"
     if ($Newest -gt $Lastcached) {
-        Write-Verbose 'Updating cache'
         $Lastcached..$Newest | ForEach-Object {
             if (!$script:cache.ContainsKey($_)) {
                 $t = Get-xkcdobj $_
