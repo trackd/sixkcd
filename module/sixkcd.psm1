@@ -102,16 +102,22 @@ function Get-xkcd {
     The number of the XKCD comic to display.
     .PARAMETER Width
     The width of the Sixel image.
-    .PARAMETER PrettyPrint
-    Pretty print the output.
+    .PARAMETER OnlySixel
+    Only display the Sixel image.
+    .PARAMETER Latest
+    Display the latest XKCD comic.
     .PARAMETER xkcd
     The XKCD object to display.
     #>
     [cmdletbinding()]
     param(
+        [Parameter(Position = 0)]
         [int] $Number,
+        [Parameter(Position = 1)]
         [int] $Width,
         [switch] $OnlySixel,
+        [Alias('Newest')]
+        [switch] $Latest,
         [Parameter(ValueFromPipeline)]
         [xkcd] $xkcd
     )
@@ -125,17 +131,20 @@ function Get-xkcd {
         if ($Number) {
             $xkcd = $script:cache[$Number]
         }
+        elseif ($Latest) {
+            # +1 is just for 404 missing.
+            $xkcd = $script:cache[$script:cache.count + 1]
+        }
         elseif (-Not $xkcd) {
+            # comic 404 might error here some day, but thats just gonna be a bit fun i think.
             $random = Get-Random -Minimum 1 -Maximum $script:cache.Count
             $xkcd = $script:cache[$random]
         }
         if ($xkcd) {
             if ($OnlySixel) {
-                ConvertTo-Sixel -Uri $xkcd.Image @params
+                return ConvertTo-Sixel -Uri $xkcd.Image @params
             }
-            else {
-                prettyxkcd -xkcd $xkcd -Sixel (ConvertTo-Sixel -Uri $xkcd.Image @params)
-            }
+            prettyxkcd -xkcd $xkcd -Sixel (ConvertTo-Sixel -Uri $xkcd.Image @params)
         }
     }
 }

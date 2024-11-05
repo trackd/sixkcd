@@ -20970,5 +20970,75 @@
     "Title": "Solar Protons",
     "Image": "https://imgs.xkcd.com/comics/solar_protons.png",
     "Alt": "If any of you want to meet some cool local oxygen atoms, I can introduce you!"
+  },
+  {
+    "id": 2998,
+    "Date": "2024-10-14T16:58:14.1969625+02:00",
+    "Title": "Ravioli-Shaped Objects",
+    "Image": "https://imgs.xkcd.com/comics/ravioli_shaped_objects.png",
+    "Alt": "It's a real accomplishment to mess up a ravioli recipe badly enough that the resulting incident touches all four quadrants of the NFPA hazard diamond."
+  },
+  {
+    "id": 2999,
+    "Date": "2024-10-16T16:58:14.2156117+02:00",
+    "Title": "Bad Map Projection: The United Stralia",
+    "Image": "https://imgs.xkcd.com/comics/bad_map_projection_the_united_stralia.png",
+    "Alt": "This projection distorts both area and direction, but preserves Melbourne."
+  },
+  {
+    "id": 3000,
+    "Date": "2024-10-18T09:34:10.9182346+02:00",
+    "Title": "Experimental Astrophysics",
+    "Image": "https://imgs.xkcd.com/comics/experimental_astrophysics.png",
+    "Alt": "Our experiment will be expensive, but we believe it will produce important spin-offs, especially if we manage to hit the sun from the right angle."
+  },
+  {
+    "id": 3001,
+    "Date": "2024-10-21T09:34:11.0050321+02:00",
+    "Title": "Temperature Scales",
+    "Image": "https://imgs.xkcd.com/comics/temperature_scales.png",
+    "Alt": "In my new scale, °X, 0 is Earths' record lowest surface temperature, 50 is the global average, and 100 is the record highest, with a linear scale between each point and adjustment every year as needed."
+  },
+  {
+    "id": 3002,
+    "Date": "2024-10-23T09:34:11.0921901+02:00",
+    "Title": "RNAWorld",
+    "Image": "https://imgs.xkcd.com/comics/rnaworld.png",
+    "Alt": "Disney lore: Canonically, because of how Elsa's abiogenesis powers work, Olaf is an RNA-only organism."
+  },
+  {
+    "id": 3003,
+    "Date": "2024-10-25T11:55:23.5963331+02:00",
+    "Title": "Sandwich Helix",
+    "Image": "https://imgs.xkcd.com/comics/sandwich_helix.png",
+    "Alt": "The number one rule of string manipulation is that youâ€™ve got to specify your encodings."
+  },
+  {
+    "id": 3004,
+    "Date": "2024-10-28T11:55:23.954735+01:00",
+    "Title": "Wells",
+    "Image": "https://imgs.xkcd.com/comics/wells.png",
+    "Alt": "You do have to be careful, though--sometimes, instead of water, you hit this free fuel that you can sell for a lot of money instead."
+  },
+  {
+    "id": 3005,
+    "Date": "2024-10-30T11:55:24.0955804+01:00",
+    "Title": "Disposal",
+    "Image": "https://imgs.xkcd.com/comics/disposal.png",
+    "Alt": "We were disappointed that the rocket didn't make a THOOOONK noise when it went into the tube, but we're setting up big loudspeakers for future launches to add the sound effect."
+  },
+  {
+    "id": 3006,
+    "Date": "2024-11-01T11:55:24.1241451+01:00",
+    "Title": "Demons",
+    "Image": "https://imgs.xkcd.com/comics/demons.png",
+    "Alt": "Though they do appreciate how much he improved the heating system for the flame pit."
+  },
+  {
+    "id": 3007,
+    "Date": "2024-11-04T11:55:24.1396345+01:00",
+    "Title": "Probabilistic Uncertainty",
+    "Image": "https://imgs.xkcd.com/comics/probabilistic_uncertainty.png",
+    "Alt": "\"One popular strategy is to enter an emotional spiral. Could that be the right approach? We contacted several researchers who are experts in emotional spirals to ask them, but none of them were in a state to speak with us.\""
   }
 ]

@@ -3,28 +3,32 @@
 # Generated on: 2024-10-09
 
 @{
-    RootModule = 'sixkcd.psm1'
-    ModuleVersion = '0.1.2'
+    RootModule           = 'sixkcd.psm1'
+    ModuleVersion        = '0.1.3'
     CompatiblePSEditions = 'Core'
-    GUID = '66a7ce6d-73f5-4588-a8c8-d8b0d9105f09'
-    Author = 'trackd'
-    CompanyName = 'trackd'
-    Copyright = '(c) trackd. All rights reserved.'
-    Description = 'A module to display XKCD comics in the console using Sixel images.'
-    PowerShellVersion = '7.4'
+    GUID                 = '66a7ce6d-73f5-4588-a8c8-d8b0d9105f09'
+    Author               = 'trackd'
+    CompanyName          = 'trackd'
+    Copyright            = '(c) trackd. All rights reserved.'
+    Description          = 'A module to display XKCD comics in the console using the Sixel module. Requires a terminal with Sixel support. (Windows Terminal v1.22.2912.0 or later)'
+    PowerShellVersion    = '7.4'
     FormatsToProcess     = 'sixkcd.format.ps1xml'
+    TypesToProcess       = @()
     FunctionsToExport    = 'Get-xkcd', 'Search-xkcd'
     RequiredModules      = @('Sixel')
     PrivateData          = @{
         PSData = @{
-            Tags         = @(
+            Tags       = @(
                 'Sixel',
                 'Graphics',
                 'Image',
                 'Comic'
             )
-            LicenseUri   = 'https://github.com/trackd/sixkcd/blob/main/LICENSE'
-            ProjectUri   = 'https://github.com/trackd/sixkcd'
+            LicenseUri = 'https://github.com/trackd/sixkcd/blob/main/LICENSE'
+            ProjectUri = 'https://github.com/trackd/sixkcd'
         }
     }
+    # A missing or $null entry is equivalent to specifying the wildcard *. declare unused with @() for better perf.
+    CmdletsToExport      = @()
+    VariablesToExport    = @()
 }
