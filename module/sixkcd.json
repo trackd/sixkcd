@@ -21040,5 +21040,299 @@
     "Title": "Probabilistic Uncertainty",
     "Image": "https://imgs.xkcd.com/comics/probabilistic_uncertainty.png",
     "Alt": "\"One popular strategy is to enter an emotional spiral. Could that be the right approach? We contacted several researchers who are experts in emotional spirals to ask them, but none of them were in a state to speak with us.\""
+  },
+  {
+    "id": 3008,
+    "Date": "2024-11-06T00:51:29.3808473+01:00",
+    "Title": "Proterozoic Rocks",
+    "Image": "https://imgs.xkcd.com/comics/proterozoic_rocks.png",
+    "Alt": "These rocks are from a time before eyes, brains, and bones, pieces of a land warmed by an unseen sun."
+  },
+  {
+    "id": 3009,
+    "Date": "2024-11-08T00:51:29.5026184+01:00",
+    "Title": "Number Shortage",
+    "Image": "https://imgs.xkcd.com/comics/number_shortage.png",
+    "Alt": "\"10 minutes ago we were down to only 2 0s!\" \"How many do we have now?\" \"I ... don't know!!\""
+  },
+  {
+    "id": 3010,
+    "Date": "2024-11-11T00:51:29.8338639+01:00",
+    "Title": "Geometriphylogenetics",
+    "Image": "https://imgs.xkcd.com/comics/geometriphylogenetics.png",
+    "Alt": "There's a maximum likelihood that I'm doing phylogenetics wrong."
+  },
+  {
+    "id": 3011,
+    "Date": "2024-11-13T00:51:30.1641+01:00",
+    "Title": "Europa Clipper",
+    "Image": "https://imgs.xkcd.com/comics/europa_clipper.png",
+    "Alt": "They had BETTER make this a sample return mission."
+  },
+  {
+    "id": 3012,
+    "Date": "2024-11-15T00:51:30.2624692+01:00",
+    "Title": "The Future of Orion",
+    "Image": "https://imgs.xkcd.com/comics/the_future_of_orion.png",
+    "Alt": "Dinosaur Cosmics"
+  },
+  {
+    "id": 3013,
+    "Date": "2024-11-18T21:08:40.9735449+01:00",
+    "Title": "Kedging Cannon",
+    "Image": "https://imgs.xkcd.com/comics/kedging_cannon.png",
+    "Alt": "The real key was inventing the windmill-powered winch."
+  },
+  {
+    "id": 3014,
+    "Date": "2024-11-20T21:08:40.9924117+01:00",
+    "Title": "Arizona Chess",
+    "Image": "https://imgs.xkcd.com/comics/arizona_chess.png",
+    "Alt": "Sometimes, you have to sacrifice pieces to gain the advantage. Sometimes, to advance ... you have to fall back."
+  },
+  {
+    "id": 3015,
+    "Date": "2024-11-22T00:18:55.1284529+01:00",
+    "Title": "D Combinatorics",
+    "Image": "https://imgs.xkcd.com/comics/dnd_combinatorics.png",
+    "Alt": "Look, you can't complain about this after giving us so many scenarios involving N locked chests and M unlabeled keys."
+  },
+  {
+    "id": 3016,
+    "Date": "2024-11-25T00:18:55.2148392+01:00",
+    "Title": "Cold Air",
+    "Image": "https://imgs.xkcd.com/comics/cold_air.png",
+    "Alt": "We also should really have checked that the old water tower was disconnected from the water system before we started filling it with compressed air."
+  },
+  {
+    "id": 3017,
+    "Date": "2024-11-27T00:18:55.5423705+01:00",
+    "Title": "Neutrino Modem",
+    "Image": "https://imgs.xkcd.com/comics/neutrino_modem.png",
+    "Alt": "Our sysadmin accidentally won a Nobel Prize while trying to debug neutrino oscillation error correction."
+  },
+  {
+    "id": 3018,
+    "Date": "2024-11-29T00:18:55.6320574+01:00",
+    "Title": "Second Stage",
+    "Image": "https://imgs.xkcd.com/comics/second_stage.png",
+    "Alt": "Hmm, they won't do in-flight delivery, so let's order a new first and second stage to our emergency landing site and then try to touch down on top of them to save time."
+  },
+  {
+    "id": 3019,
+    "Date": "2024-12-02T00:18:56.0650244+01:00",
+    "Title": "Advent Calendar Advent Calendar",
+    "Image": "https://imgs.xkcd.com/comics/advent_calendar_advent_calendar.png",
+    "Alt": "The growth rate of items per day may may seem absurd, but it's actually much less than the acceleration in the 12 Days of Christmas song."
+  },
+  {
+    "id": 3020,
+    "Date": "2024-12-04T00:18:56.150876+01:00",
+    "Title": "Infinite Armada Chess",
+    "Image": "https://imgs.xkcd.com/comics/infinite_armada_chess.png",
+    "Alt": "Stockfish 16 suggests the unconventional opening 1. RuntimeError: Out of bounds memory access"
+  },
+  {
+    "id": 3021,
+    "Date": "2024-12-06T00:18:56.2654477+01:00",
+    "Title": "Seismologists",
+    "Image": "https://imgs.xkcd.com/comics/seismologists.png",
+    "Alt": "And even when they're not distracted, they usually get kicked out for illegal under-the-net 'subduction spikes'."
+  },
+  {
+    "id": 3022,
+    "Date": "2024-12-09T00:18:56.3489927+01:00",
+    "Title": "Making Tea",
+    "Image": "https://imgs.xkcd.com/comics/making_tea.png",
+    "Alt": "No, of course we don't microwave the mug WITH the teabag in it. We microwave the teabag separately."
+  },
+  {
+    "id": 3023,
+    "Date": "2024-12-11T00:18:56.3878501+01:00",
+    "Title": "The Maritime Approximation",
+    "Image": "https://imgs.xkcd.com/comics/the_maritime_approximation.png",
+    "Alt": "It works because a nautical mile is based on a degree of latitude, and the Earth (e) is a circle."
+  },
+  {
+    "id": 3024,
+    "Date": "2024-12-13T00:18:56.4753929+01:00",
+    "Title": "METAR",
+    "Image": "https://imgs.xkcd.com/comics/metar.png",
+    "Alt": "In the aviation world, they don't use AM/PM times. Instead, all times are assumed to be AM unless they're labeled NOTAM."
+  },
+  {
+    "id": 3025,
+    "Date": "2024-12-16T00:18:56.5947016+01:00",
+    "Title": "Phase Change",
+    "Image": "https://imgs.xkcd.com/comics/phase_change.png",
+    "Alt": "Even when you try to make nice, smooth ice cubes in a freezer, sometimes one of them will shoot out a random ice spike, which physicists ascribe to kiki conservation."
+  },
+  {
+    "id": 3026,
+    "Date": "2024-12-18T00:18:56.6816994+01:00",
+    "Title": "Linear Sort",
+    "Image": "https://imgs.xkcd.com/comics/linear_sort.png",
+    "Alt": "The best case is O(n), and the worst case is that someone checks why."
+  },
+  {
+    "id": 3027,
+    "Date": "2024-12-20T00:18:56.7652383+01:00",
+    "Title": "Exclusion Principle",
+    "Image": "https://imgs.xkcd.com/comics/exclusion_principle.png",
+    "Alt": "Fermions are weird about each other in a standoffish way. Integer-spin particles are weird about each other in a 'stand uncomfortably close while talking' kind of way."
+  },
+  {
+    "id": 3028,
+    "Date": "2024-12-23T00:18:56.8548879+01:00",
+    "Title": "D Roll",
+    "Image": "https://imgs.xkcd.com/comics/dnd_roll.png",
+    "Alt": "Under some circumstances, if you throw a D8 and then a D12 at an enemy, thanks to the D8's greater pointiness you actually have to roll a D12 and D8 respectively to determine damage."
+  },
+  {
+    "id": 3029,
+    "Date": "2024-12-25T00:18:57.1824651+01:00",
+    "Title": "Sun Avoidance",
+    "Image": "https://imgs.xkcd.com/comics/sun_avoidance.png",
+    "Alt": "C'mon, ESA Solar Orbiter team, just give the Parker probe a LITTLE nudge at aphelion. Crash it into the sun. Fulfill the dream of Icarus. It is your destiny."
+  },
+  {
+    "id": 3030,
+    "Date": "2024-12-27T00:18:57.3025684+01:00",
+    "Title": "Lasering Incidents",
+    "Image": "https://imgs.xkcd.com/comics/lasering_incidents.png",
+    "Alt": "I still don't know how the police found my compound where I ran an illegal searchlight depot/covert blimp airfield/fireworks testing range."
+  },
+  {
+    "id": 3031,
+    "Date": "2024-12-30T00:18:57.389925+01:00",
+    "Title": "Time Capsule Instructions",
+    "Image": "https://imgs.xkcd.com/comics/time_capsule_instructions.png",
+    "Alt": "Inside is a third box, labeled DO NOT OPEN UNLESS YOU ARE IN THE TIME ZONE WHERE YOU OPENED BOTH PREVIOUS BOXES."
+  },
+  {
+    "id": 3032,
+    "Date": "2025-01-01T00:18:57.7171135+01:00",
+    "Title": "Skew-T Log-P",
+    "Image": "https://imgs.xkcd.com/comics/skew_t_log_p.png",
+    "Alt": "The most important quantity for meteorologists is of course the product of latent pressure and temperostrophic enthalpy, though 'how nice the weather is' is a close second."
+  },
+  {
+    "id": 3033,
+    "Date": "2025-01-03T00:18:57.8055162+01:00",
+    "Title": "Origami Black Hole",
+    "Image": "https://imgs.xkcd.com/comics/origami_black_hole.png",
+    "Alt": "You may notice the first half of these instructions are similar to the instructions for a working nuclear fusion device. After the first few dozen steps, be sure to press down firmly and fold quickly to overcome fusion pressure."
+  },
+  {
+    "id": 3034,
+    "Date": "2025-01-06T00:18:57.9255122+01:00",
+    "Title": "Features of Adulthood",
+    "Image": "https://imgs.xkcd.com/comics/features_of_adulthood.png",
+    "Alt": "I don't dig pit traps and cover them with sticks and a thin layer of leaves nearly as much as I expected; I find a chance to do it barely once a month."
+  },
+  {
+    "id": 3035,
+    "Date": "2025-01-08T00:18:57.9690622+01:00",
+    "Title": "Trimix",
+    "Image": "https://imgs.xkcd.com/comics/trimix.png",
+    "Alt": "You don't want the nitrogen percentage to be too high or you run the risk of eutrophication."
+  },
+  {
+    "id": 3036,
+    "Date": "2025-01-10T00:18:58.0598476+01:00",
+    "Title": "Chess Zoo",
+    "Image": "https://imgs.xkcd.com/comics/chess_zoo.png",
+    "Alt": "The zoo takes special care to keep kings separated from opposite-color pieces as part of their conservation program to prevent mating in captivity."
+  },
+  {
+    "id": 3037,
+    "Date": "2025-01-13T00:18:58.1482146+01:00",
+    "Title": "Radon",
+    "Image": "https://imgs.xkcd.com/comics/radon.png",
+    "Alt": "A good ²³⁸Umbrella policy should cover it."
+  },
+  {
+    "id": 3038,
+    "Date": "2025-01-15T00:18:58.2315064+01:00",
+    "Title": "Uncanceled Units",
+    "Image": "https://imgs.xkcd.com/comics/uncanceled_units.png",
+    "Alt": "Speed limit c arcminutes^2 per steradian"
+  },
+  {
+    "id": 3039,
+    "Date": "2025-01-17T00:18:58.3199138+01:00",
+    "Title": "Human Altitude",
+    "Image": "https://imgs.xkcd.com/comics/human_altitude.png",
+    "Alt": "I wonder what surviving human held the record before balloons (excluding edge cases like jumping gaps on a mountain bridge). Probably it was someone falling from a cliff into snow or water, but maybe it involved something weird like a gunpowder explosion or volcano."
+  },
+  {
+    "id": 3040,
+    "Date": "2025-01-20T00:18:58.4151364+01:00",
+    "Title": "Chemical Formulas",
+    "Image": "https://imgs.xkcd.com/comics/chemical_formulas.png",
+    "Alt": "Can you pass the nackle?"
+  },
+  {
+    "id": 3041,
+    "Date": "2025-01-22T00:18:58.499996+01:00",
+    "Title": "Unit Circle",
+    "Image": "https://imgs.xkcd.com/comics/unit_circle.png",
+    "Alt": "They're continuing to search for a square with the same area as the circle, as efforts to construct one have run into difficulties."
+  },
+  {
+    "id": 3042,
+    "Date": "2025-01-24T00:18:58.5403681+01:00",
+    "Title": "T. Rex Evolution",
+    "Image": "https://imgs.xkcd.com/comics/t_rex_evolution.png",
+    "Alt": "Unfortunately, body size and bite force continue to increase."
+  },
+  {
+    "id": 3043,
+    "Date": "2025-01-27T00:18:58.6593112+01:00",
+    "Title": "Muons",
+    "Image": "https://imgs.xkcd.com/comics/muons.png",
+    "Alt": "Update: I've been banned from the physics department for the way I pronounce \"Doppler effect.\""
+  },
+  {
+    "id": 3044,
+    "Date": "2025-01-29T00:18:59.0906957+01:00",
+    "Title": "Humidifier Review",
+    "Image": "https://imgs.xkcd.com/comics/humidifier_review.png",
+    "Alt": "They should add a little sticker that certifies that the humidifier supports water conservation, but in the sense of energy conservation or momentum conservation."
+  },
+  {
+    "id": 3045,
+    "Date": "2025-01-31T00:18:59.4175941+01:00",
+    "Title": "AlphaMove",
+    "Image": "https://imgs.xkcd.com/comics/alphamove.png",
+    "Alt": "It struggles a little with complex positions, like when there are an even number of moves and it has to round down, but when run against itself it's capable of finding some novelties. At one point I saw six knights on the board at once; Stockfish rarely exceeds four."
+  },
+  {
+    "id": 3046,
+    "Date": "2025-02-03T00:18:59.4578107+01:00",
+    "Title": "Stromatolites",
+    "Image": "https://imgs.xkcd.com/comics/stromatolites.png",
+    "Alt": "If only my ancestors had been fortunate enough to marry into the branch of the bacteria family that could photosynthesize, like all my little green cousins here."
+  },
+  {
+    "id": 3047,
+    "Date": "2025-02-05T00:18:59.5709018+01:00",
+    "Title": "Rotary Tool",
+    "Image": "https://imgs.xkcd.com/comics/rotary_tool.png",
+    "Alt": "It was great until my thumb slipped and I accidentally launched my telescope into the air at Mach 8."
+  },
+  {
+    "id": 3048,
+    "Date": "2025-02-07T00:19:00.0021244+01:00",
+    "Title": "Suspension Bridge",
+    "Image": "https://imgs.xkcd.com/comics/suspension_bridge.png",
+    "Alt": "As a first step, they can put in a secondary deck, to help drivers try it out and find out how fun the jumps are. After a while no one will use the old flat deck and they can remove it."
+  },
+  {
+    "id": 3049,
+    "Date": "2025-02-10T00:19:00.116669+01:00",
+    "Title": "Incoming Asteroid",
+    "Image": "https://imgs.xkcd.com/comics/incoming_asteroid.png",
+    "Alt": "The bottom ones are also potentially bad news for any other planets in our solar system that have been counting on Earth having a stable orbit."
   }
 ]
